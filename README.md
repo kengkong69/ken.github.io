@@ -13,5 +13,5 @@
 ---
 
 🌎 **Let's Connect!**
-| [Facebook](https://twitter.com/yourusername) | [Tiktok](https://yourportfolio.com)
+| [Facebook](https://www.facebook.com/kenreyven.ordas) | [Tiktok](https://www.tiktok.com/@ilovechelliane?_t=ZS-8u4EFTtN5Gy&_r=1)
 
