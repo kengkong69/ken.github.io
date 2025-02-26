@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #e6ecf0;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 20%;
+    background: white;
+    padding: 20px;
+    height: 100vh;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.menu {
+    list-style: none;
+}
+
+.menu li {
+    padding: 10px 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2em;
+}
+
+.tweet-btn {
+    width: 100%;
+    background: #1da1f2;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+.tweet-btn:hover {
+    background: #1991db;
+}
+
+/* Main Feed */
+.feed {
+    width: 50%;
+    background: white;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+.tweet-box {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.tweet-box img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.tweet-box input {
+    flex: 1;
+    padding: 10px;
+    font-size: 1.2em;
+    border: none;
+    outline: none;
+}
+
+.tweet {
+    display: flex;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.tweet img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.tweet-content h3 {
+    font-size: 1.2em;
+}
+
+.tweet-content p {
+    margin-top: 5px;
+}
+
+.tweet-actions {
+    margin-top: 10px;
+}
+
+/* Trending Section */
+.trending {
+    width: 30%;
+    background: white;
+    padding: 20px;
+}
+
+.trending h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.trend {
+    margin-bottom: 15px;
+}
+
+.sison {
+    width: 30px;
+    position: absolute;
+}

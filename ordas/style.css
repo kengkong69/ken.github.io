@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    background-image: url(baickground.png);
+}
+.resume-container {
+    background: #fff;
+    padding: 20px;
+    width: 1500px;
+    height: 1500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-size: 7.5px;
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 30;
+}
+
+header h1 {
+    margin: 0;
+    color: #333;
+    font-size: 300%;
+}
+
+.contact-info {
+    text-align: center;
+    font-size: 30px;
+}
+
+.section {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    color: #444;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+;
+}
+
+ul li {
+    background: url('https://cdn-icons-png.flaticon.com/16/846/846551.png') no-repeat left center;
+    padding-left: 25px;
+    margin-bottom: 5px;
+  
+}
+
+.job h3 {
+    margin: 5px 0;
+    color: #555;
+    font-size: 150%;
+}
+
+.job p {
+    font-size: 14px;
+    color: #777;
+    font-size: 80%;
+}
+.header2 {
+    font-size: 450%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%; 
+    font-size: 12px;
+    
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(90deg, #ff758c, #ff7eb3); 
+    text-align: center;
+    z-index: 1000;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    background: rgb(255, 222, 222);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: right; 
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 0 15px;
+    font-size: 1.2em;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+}
+
+a:hover {
+    font-size: 30px;
+    cursor: pointer;
+    background: rgba(247, 247, 247, 0.63);
+    border-radius: 30px;
+    transition: 0.6s;
+}
+
+h2 {
+    font-size: 50px;
+    background-image: linear-gradient(to left, rgb(255, 222, 227), rgb(255, 82, 82));
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+p {
+    font-size: 25px;
+    font-family: 'Lucida Sans';
+    text-align: center;
+    padding: 10px;
+}
+
+button {
+    background: pink;
+    border-radius: 3px;
+    border: 2px solid palevioletred;
+    padding: 5px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor:  pointer;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: calc(100vh - 100px);
+}
+
+.left-container {
+    border: 1px solid #ffffff;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right-container {
+    border: 3px solid rgb(255, 255, 255) ;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img {
+    width: 500px;
+}
+
