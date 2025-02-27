@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>web ni ordas</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+
+/* Add border radius to images */
+img.rounded {
+  border-radius: 15px;
+}
+
+.w3-bar-item.w3-button {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.w3-bar-item.w3-button:hover {
+  background-color: #ddd;
+  color: #000;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">
+      <img src="LOGOrr.png" alt="NEXUS Logo" style="height:30px; vertical-align:middle;">
+      
+    </a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image rounded" src="LOGOrr.png" alt="Hamburger Catering" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge">NEXUS</h1>
+  </div>
+</header>
+
+<div class="w3-content" style="max-width:1100px">
+
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="c.jpg" class="w3-round w3-image w3-opacity-min rounded" alt="Table Setting" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">NEXUS Cafe</h1><br>
+      <h5 class="w3-center">Since 2025</h5>
+      <p class="w3-large">Welcome to Nexus Computer Cafe, your ultimate destination for cutting-edge technology, high-speed internet, and a comfortable space to work, play, and connect. Whether you're a gamer looking to dive into the latest titles, a student in need of a quiet study spot, or someone simply wanting to browse the web in a modern and relaxed environment, Nexus is the place for you. With top-of-the-line computers, ergonomic seating, and a variety of beverages to keep you refreshed, we ensure an exceptional experience for all our guests.</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">Come join us and connect with the digital world in style at Nexus – where innovation meets comfort!</p>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">NEXUS Cafe Layout</h1><br>
+    
+      <h4>Ground Floor</h4>
+      <p class="w3-text-grey"> <strong>Entrance</strong>: Located at the top-left with double doors leading inside.</p><br>
+      <p class="w3-text-grey"> <strong>Workstation</strong>:Two large tables, each with multiple computers and chairs, set up for collaborative work.</p><br>
+      <p class="w3-text-grey"> <strong>Restroom</strong>: A small enclosed space in the bottom-left corner near the kitchen.</p><br>
+      <p class="w3-text-grey"> <strong>Staircase</strong>: Located on the right side, leading to the second floor.</p><br>
+      <h4>Second Floor</h4>
+      <p class="w3-text-grey"> <strong>Workstations</strong>:  Three large tables with multiple computers and chairs arranged for work.</p><br>
+      <p class="w3-text-grey"> <strong>Open Layout</strong>:  Located on the right side, leading to the second floor.</p><br>  
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large">
+      <img src="nexus templates.png" class="w3-round w3-image w3-opacity-min rounded" alt="Menu" style="width:100%">
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1>Contact</h1><br>
+    <p>Nexus Internet Cafe offers full-service catering for any event, large or small. We understand your needs and will cater the food to satisfy the biggest criteria of them all—both look and taste. Do not hesitate to contact us.</p>
+    <p class="w3-text-blue-grey w3-large"><b>Sa Tabi Tabi lang Phillipines, Manila</b></p>
+    <p>You can also contact us by phone 09123211780 or email NEXUS@catering.com, or you can send us a message here:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2025-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+  
+</div>
+
+<footer class="w3-center w3-light-grey w3-padding-32">
+
+</footer>
+
+</body>
+</html>
